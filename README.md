@@ -1,6 +1,6 @@
 # Microbial Visualization Tools
 
-This repository contains a collection of R scripts designed for visualizing microbial community data. These scripts generate various types of plots and charts from microbiome data, leveraging packages such as `ggplot2`, `plotly`, and `phyloseq`. They are intended for users working with microbiome data who need to generate informative visualizations.
+This repository contains a collection of R scripts designed for visualizing microbial community data. These scripts generate various types of interactive plots and charts from microbiome data, leveraging packages such as `ggplot2`, `plotly`, and `phyloseq`. They are intended for users working with microbiome data who need to generate informative visualizations.
 
 ## Included Scripts
 
