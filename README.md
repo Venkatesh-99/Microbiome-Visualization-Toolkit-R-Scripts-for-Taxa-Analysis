@@ -209,3 +209,8 @@ for (chart in pie_charts) {
   print(chart)
 }
 ```
+
+## Acknowledgements
+
+- The barplot and heatmap functions were inspired by code from Jordan Bisanz in qiime2R
+- The qiime2R repository can be found here: https://github.com/jbisanz/qiime2R
