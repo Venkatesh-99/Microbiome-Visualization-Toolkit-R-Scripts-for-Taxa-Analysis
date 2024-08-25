@@ -44,7 +44,7 @@ BiocManager::install("phyloseq")
 
 This R script generates a relative abundance bar plot for the top N taxa across samples, with optional faceting by metadata categories. It uses `ggplot2` and `plotly` for visualization. 
 
-This function is a modification of the original static barplot function created by Jordan Bisanz (https://github.com/jbisanz/qiime2R), which was licensed under the MIT License.
+This function is a modification of the original static barplot function [taxa_barplot.R](https://github.com/jbisanz/qiime2R/blob/master/R/taxa_barplot.R) created by [Jordan Bisanz](https://github.com/jbisanz/qiime2R), which was licensed under the MIT License.
 
 ### Modifications
 
@@ -85,7 +85,7 @@ saveWidget(barplot, file = "/path/to/htmlfile.html")
 
 This R script generates a heatmap of taxa abundance, with options for normalization and hierarchical clustering. It uses `ggplot2` and `plotly` for visualization.
 
-This function is a modification of the original static heatmap function created by Jordan Bisanz (https://github.com/jbisanz/qiime2R), which was licensed under the MIT License.
+This function is a modification of the original static heatmap function [taxa_heatmap.R](https://github.com/jbisanz/qiime2R/blob/master/R/taxa_heatmap.R) created by [Jordan Bisanz](https://github.com/jbisanz/qiime2R), which was licensed under the MIT License.
 
 ### Modifications
 
