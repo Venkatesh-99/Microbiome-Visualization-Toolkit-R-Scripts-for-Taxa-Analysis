@@ -20,5 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This project includes modifications made by Venkatesh. N to the original functions 
+This project includes modifications made by Venkatesh. N (2024) to the original functions 
 'taxa_barplot.R' and 'taxa_heatmap.R' from the repository: https://github.com/jbisanz/qiime2R
