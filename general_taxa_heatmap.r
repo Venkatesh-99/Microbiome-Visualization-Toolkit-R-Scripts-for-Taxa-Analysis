@@ -25,6 +25,8 @@ taxonomy<-read_qza("taxonomy.qza")$data %>% parse_taxonomy()
 # Summarize your desired taxa
 taxasums<-summarize_taxa(SVs, taxonomy)$Phylum
 
+# This function is based on the original work by Jordan Bisanz from https://github.com/jbisanz/qiime2R.
+# Modifications by Venkatesh. N to add interactivity.
 create_taxa_heatmap <- function(features, metadata, category = NULL, normalize = "log10(percent)", ntoplot = 10) {
   
   # Helper functions for normalization
