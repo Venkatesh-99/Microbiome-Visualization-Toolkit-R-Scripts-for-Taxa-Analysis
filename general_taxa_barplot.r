@@ -27,6 +27,8 @@ taxonomy<-read_qza("taxonomy.qza")$data %>% parse_taxonomy()
 # Summarize your desired taxa
 taxasums<-summarize_taxa(SVs, taxonomy)$Phylum
 
+# This function is based on the original work by Jordan Bisanz from https://github.com/jbisanz/qiime2R.
+# Modifications by Venkatesh. N to add interactivity.
 # Combined function for normalization and plotting
 create_taxa_barplt <- function(features, metadata, category = NULL, normalize = "percent", ntoplot = 10) {
   
