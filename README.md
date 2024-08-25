@@ -1,6 +1,7 @@
 # Microbial Visualization Tools
-
+<div style="text-align: justify;">
 This repository contains a collection of R scripts designed for visualizing microbial community data. These scripts generate various types of interactive plots and charts from microbiome data, leveraging packages such as `ggplot2`, `plotly`, and `phyloseq`. They are intended for users working with microbiome data who need to generate informative visualizations.
+</div>
 
 ## Included Scripts
 
@@ -11,8 +12,9 @@ This repository contains a collection of R scripts designed for visualizing micr
 - **`general_taxa_piechart_groupwise.r`**: Creates pie charts of taxa abundance for each group, visualizing relative abundances across groups.
 
 ## Getting Started
-
+<div style="text-align: justify;">
 To use these scripts, you need to set your working directory and provide paths to your input files (e.g., metadata, feature tables, taxonomy files). Each script includes example usage to guide you in generating the desired plots.
+</div>
 
 ## Dependencies
 
